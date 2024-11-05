@@ -1,8 +1,17 @@
-# React + Vite
+# ToDo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple ToDo application built with React. It allows users to add, toggle, and delete tasks, as well as filter tasks by their completion status.
 
-Currently, two official plugins are available:
+## Features
+- **Add New ToDo:** Enter a new task in the input field and press Enter to add it to the list.
+- **Mark Complete:** Click the checkbox to mark a task as completed.
+- **Delete ToDo:** Remove a task by clicking the delete button.
+- **Filter Tasks:** Filter tasks by "All," "Active," or "Completed" status.
+- **Clear Completed:** Remove all completed tasks with a single button.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Project Structure
+The app is divided into the following main components:
+- `TodoHeader`: Handles the input and adding of new tasks.
+- `TodoList`: Displays the list of tasks.
+- `TodoItem`: Represents each individual task.
+- `TodoFooter`: Provides filtering options and a button to clear completed tasks.
